@@ -26,5 +26,5 @@ PHPStorm settings > Languages & Frameworks > PHP
 * Add new Interpreter
 * Select Docker
 
-![Image](docs/images/config_docker_interpreter.png "Configure")
+[Image](docs/images/config_docker_interpreter.png)
 
