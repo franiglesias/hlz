@@ -1,0 +1,14 @@
+version: '2'
+services:
+
+  phpcli:
+    build:
+        dockerfile: docker/Dockerfile
+        context: .
+    container_name: phpcli
+    environment:
+      PHP_IDE_CONFIG: "serverName=Test"
+      XDEBUG_CONFIG: "remote_host=10.254.254.254"
+    volumes:
+      - .:/home
+    tty: true
