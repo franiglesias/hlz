@@ -25,5 +25,9 @@
   },
   "config": {
     "bin-dir": "bin"
+  },
+  "require": {
+    "phpspec/phpspec": "5.0.x-dev",
+    "behat/behat": "3.2.x-dev"
   }
 }
