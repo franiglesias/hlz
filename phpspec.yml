@@ -6,3 +6,4 @@ suites:
         src_path: '%paths.config%/src'
         spec_path: '%paths.config%'
 
+formatter.name: pretty
